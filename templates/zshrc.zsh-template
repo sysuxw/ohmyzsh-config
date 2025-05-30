@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/xiewei/.oh-my-zsh
+export ZSH=/Users/wadexie/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -207,12 +207,12 @@ nvm use 18
 unalias gf
 
 # pnpm
-export PNPM_HOME="/Users/xiewei/Library/pnpm"
+export PNPM_HOME="/Users/wadexie/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 # bit
 case ":$PATH:" in
-  *":/Users/xiewei/bin:"*) ;;
-  *) export PATH="$PATH:/Users/xiewei/bin" ;;
+  *":/Users/wadexie/bin:"*) ;;
+  *) export PATH="$PATH:/Users/wadexie/bin" ;;
 esac
 # bit end
